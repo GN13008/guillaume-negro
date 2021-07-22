@@ -41,3 +41,10 @@
 .margin-right {
   margin-right: 32px;
 }
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  .flex-content {
+    flex-direction: column;
+  }
+}
