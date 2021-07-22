@@ -8,6 +8,7 @@
 @import url(components/banner.css);
 @import url(components/footer.css);
 @import url(components/navbar.css);
+@import url(components/section.css);
 
 p {
   font-family: "Montserrat", "Work Sans", "Helvetica", "sans-serif";
