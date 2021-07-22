@@ -10,6 +10,15 @@
   height: 100px;
   color: rgba(0,0,0,0.3);
 }
+
+.footer-copyright {
+  text-align: center;
+}
+.footer-copyright p {
+  margin:0;
+  padding: 0;
+}
+
 .footer-links {
   display: flex;
   align-items: center;
