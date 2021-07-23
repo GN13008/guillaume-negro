@@ -35,7 +35,7 @@
     <!-- link -->
     <script src="https://kit.fontawesome.com/aeff9232c4.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
-  
+    <link rel="icon" href="media/images/favicon.ico" />
   </head>
   <body>
     <div class="navbar">
@@ -45,10 +45,10 @@
             <img src="media/images/Logo_GND.png" />
           </a>
           <div class="navlinks">
-            <a href="#">A propos</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Compétences</a>
-            <a href="#">Contact</a>
+            <a href="#ABOUT">A propos</a>
+            <a href="#PORTFOLIO">Portfolio</a>
+            <a href="#SKILLS">Compétences</a>
+            <a href="#CONTACT">Contact</a>
           </div>
         </div>
       </div>
@@ -66,6 +66,9 @@
       </div>
     </div>
 
+    
+    <!-- ABOUT SECTION -->
+    <span class="anchor" id="ABOUT"></span>
     <div class="section">
       <div class="content">
         <div class="section-content">
@@ -117,34 +120,110 @@
         <hr>
       </div>
     </div>
+
+    <!-- PORTFOLIO SECTION -->
+    <span class="anchor" id="PORTFOLIO"></span>
     <div class="section">
       <div class="content">
         <div class="section-content">
           <h1>Portfolio</h1>
-          <h2>Du menu a l'assiette | Ruby On rails | Projet perso</h2>
-          Juillet 2021
-          <h2>Sailsessions | Make sport ...</h2>
-          Ruby On rails | Projet Le Wagon - Lead Dev
-          Juin 2021
-          Projet pour valider la formation du Wagon
-          10 jours en équipe de 4 
-          2/3 cards du projets
-          <h2>Bien être et beauté | Make sport ...</h2>
-          Juillet 2018
+          <div class="card-project">
+            <h2>Du menu a l'assiette</h2>
+            <h3>Projet perso | Ruby On Rails</h3>
+            Juillet 2021
+            "Du Menu à l'Assiette" est ma première application Post formation LeWagon. L'objectif principal étant de continuer à 
+            apprendre en développant mes idées. Elle est au stade de MVP. 
+            Plus de détails (axes d'améliorations, remarques, ...) sur le readme : ici
+            <div class="flex-content">
+              <img src="media/images/cover_dmaa.png" alt="">
+            </div>
+          </div>
+          <hr>
+          <div class="card-project">
+            <h2>Sailsessions</h2>
+            Partagez plus que votre passion pour les sports nautiques
+            <h3>Ruby On rails | Projet Le Wagon - Lead Dev</h3>
+            Juin 2021
+            Le wagon c'est aussi l'opportunité de présenter un projet qui nous tient à cœur et de le voir naître doucement.
+            Aujourd'hui je vous présente donc SailSessions : un prototype d'application web (orienté mobile) ayant pour but de 
+            réunir les passionnés de sports nautiques
+            Je remercie encore la team qui a eu assez confiance en moi pour sélectionner ce projet et qui je pense 
+            gardera un bon souvenir de cette première 
+            expérience d'une dizaine de jours de code en équipe.
+            Ibrahim Habi, Florent Astier, Pierre Averous merci 🏄
+            <div class="flex-content">
+              <div class="demo_app">
+                <p>home</p>
+                <img src="media/images/session_home.png" alt="">
+              </div>
+              <div class="demo_app">
+                <p>home</p>
+                <img src="media/images/session_ride.png" alt="">
+              </div>
+              <div class="demo_app">
+                <p>home</p>
+                <img src="media/images/session_profil.png" alt="">
+              </div>
+            </div>
+          </div>
+          <hr>
         </div>
       </div>
     </div>
+
+    <!-- SKILLS SECTION -->
+    <span class="anchor" id="SKILLS"></span>
     <div class="section">
       <div class="content">
         <div class="section-content">
           <h1>Experiences, formation, competences</h1>
+          <div class="competence">
+            <h2>Compétences</h2>
+            <h3>langage de programmation</h3>
+            <ul>
+              <li>Ruby + Ruby On Rails</li>
+              <li>PostgreSQL</li>
+              <li>HTML / CSS</li>
+              <li>Bootstrap</li>
+              <li>Javascript ES6</li>
+            </ul>
+            <h3>Outils</h3>
+            <ul>
+              <li>API, JSON, Scrapping</li>
+              <li>Relationnal database</li>
+              <li>Wireframes, prototyping, UI design</li>
+              <li>Test driven development</li>
+              <li>Git / Github</li>
+              <li>Heroku</li>
+              <li>Trello</li>
+              <li>Figma</li>
+              <li>Slack</li>
+              <li>Notion</li>
+            </ul>
+            <h3>Workflow</h3>
+            <ul>
+              <li>Gestion de projet</li>
+              <li>Vision D'ensemble</li>
+              <li>Pragmatisme</li>
+              <li>Base en UI / UX</li>
+              <li>Travail en équipe avec Github</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- CONTACT SECTION -->
+    <span class="anchor" id="CONTACT"></span>
     <div class="section">
       <div class="content">
         <div class="section-content">
           <h1>Contact</h1>
+          <ul>
+            <li>mail</li>
+            <li>github</li>
+            <li>linkedin</li>
+          </ul>
         </div>
       </div>
     </div>

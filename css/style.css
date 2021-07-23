@@ -5,7 +5,9 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /* My components */
+@import url(components/anchor.css);
 @import url(components/banner.css);
+@import url(components/card-project.css);
 @import url(components/footer.css);
 @import url(components/navbar.css);
 @import url(components/section.css);
