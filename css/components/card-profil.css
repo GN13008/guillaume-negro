@@ -1,0 +1,32 @@
+.flex-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profil img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.profil-section {
+  margin-top: 32px;
+}
+.profil-content {
+  text-align: justify;
+}
+
+.margin-left {
+  margin-left: 32px;
+}
+
+.margin-right {
+  margin-right: 32px;
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  .flex-content {
+    flex-direction: column;
+  }
+}
