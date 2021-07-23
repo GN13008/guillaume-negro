@@ -4,25 +4,34 @@
   padding-top: 32px;
 }
 
+.section-content {
+  margin-bottom: 32px;
+}
+
 .section-content h1 {
+  font-size: 40px;
   margin: 0;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
   font-weight: bold;
 }
 
-.section-content p {
+.section-content p, i, a {
+  color: black;
   font-size: 20px;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  
+  opacity: .9;
+  text-decoration: none;
+  /* text-shadow: 1px 1px 3px rgba(0,0,0,0.2); */
+}
+.section-content i, a:hover {
+  color: black;
+  opacity: 0,4;
 }
 
 .flex-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
 }
 
 .profil img {

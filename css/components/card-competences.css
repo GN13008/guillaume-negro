@@ -1,4 +1,4 @@
-.card-project {
+/* .card-project {
   margin-bottom: 32px;
 }
 
@@ -32,18 +32,17 @@
 
 hr {
   margin-top: 24px;
-}
+} */
 
-.demo-app-grid{
+.competences-grid{
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
 }
 
-.demo-app img {
+/* .demo-app img {
   width: 100%;
-}
+} */
 
 
 /* // Smallest device */
