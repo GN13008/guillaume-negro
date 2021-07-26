@@ -2,23 +2,27 @@
 /* button */
 
 .btn-flat {
-  color: #01172F;
   display: block;
   width: fit-content;
   margin: 16px 0;
   padding: 8px 24px;
   border-radius: 4px;
-  background: white;
   font-weight: bold;
   text-decoration: none;
-  opacity: 0.9;
   transition: background 0.3s ease;
 }
 
-.btn-flat:hover {
+.btn-white {
+  color: #01172F;
+  background: white;
+  opacity: 0.9;
+}
+
+.btn-white:hover {
   background: #01172F;
   color: white;
 }
+
 
 /* .btn-ghost {
   color: #4A4A4A;

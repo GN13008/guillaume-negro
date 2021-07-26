@@ -29,6 +29,11 @@
   justify-content: space-between;
 }
 
+.project-link {
+  display: flex;
+  align-items: center;
+}
+
 hr {
   margin-top: 24px;
 }
@@ -42,6 +47,11 @@ hr {
 
 .demo-app img {
   width: 100%;
+}
+
+.date {
+  color: #01172F;
+  font-weight: bold;
 }
 
 
