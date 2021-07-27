@@ -36,7 +36,7 @@
 }
 
 /* // Smallest device */
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .footer-content{
     height:200px;
   }
