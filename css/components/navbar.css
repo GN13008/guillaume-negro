@@ -35,3 +35,16 @@
 .navlinks a:hover {
   opacity: 1;
 }
+
+/* // Smallest device */
+@media (max-width: 768px) {
+  .navlinks {
+    flex-wrap: wrap;
+  }
+  .navlinks a {
+    font-size: 18px;
+  }
+  .navbar-brand img {
+    width: 60px;
+  }
+}

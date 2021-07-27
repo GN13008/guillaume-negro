@@ -3,3 +3,9 @@
   align-items: center;
 }
 
+/* // Smallest device */
+@media (max-width: 376px) {
+  .contact-link {
+    flex-direction: column;
+  }
+}

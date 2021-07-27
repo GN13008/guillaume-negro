@@ -7,9 +7,16 @@
   margin: 0;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
-.card-project h3 {
+
+.description {
+  font-size: 18px;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.techno {
   font-size: 24px;
-  opacity: 0.7;
+  opacity: 0.85;
   margin-bottom: 8px;
 }
 
@@ -23,10 +30,14 @@
   width: 100%;
 }
 
-.title-project {
+.title-project-content {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.title-project {
+  margin-bottom: 24px;
 }
 
 .project-link {
@@ -52,40 +63,21 @@ hr {
 .date {
   color: #01172F;
   font-weight: bold;
+  text-align: right;
 }
 
 
 /* // Smallest device */
-@media (min-width: 100px) and (max-width: 575px) {
-  .cards {
+@media (max-width: 768px) {
+  .project-link {
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  .project-link a {
+    margin: 0;
+    padding: 0;
+  }
+  .demo-app-grid {
     grid-template-columns: 1fr;
-  }
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
