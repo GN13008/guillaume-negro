@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="navbar">
+    <nav class="navbar">
       <div class="content">
         <div class="navbar-content">
           <a class="navbar-brand" href="#">
@@ -52,7 +52,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </nav>
 
     <!-- banner -->
     <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1457195740896-7f345efef228?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
@@ -74,7 +74,7 @@
       <div class="content">
         <div class="section-content">
           <h1>A PROPOS</h1>
-          <div class="flex-content">
+          <div class="flex-content up">
             <div class="profil-content margin-right">
               <h3>Qui es tu ?</h3>
               <p>Bonjour, je suis Guillaume NEGRO, j'ai 27 ans et j'habite à Marseille. <br> Je suis passionné de kitesurf et plus généralement de sport de glisse.
@@ -85,8 +85,8 @@
                 <img src="media/images/kite.jpg" />
               </div>
           </div>
-          <div class="flex-content">
-            <div class="profil">
+          <div class="flex-content down">
+            <div class="profil smaller">
               <img src="media/images/Profil.png" />
             </div>
             <div class="profil-content margin-left">
@@ -101,7 +101,7 @@
               J'ai crée GN Development mon entreprise freelance.</p>
             </div>
           </div>
-          <div class="flex-content profil-section">
+          <div class="flex-content up profil-section">
             <div class="profil-content margin-right">
                 <h3>GN Development c'est quoi ?</h3>
                 <p>GN Development (GND) c'est ma société de freelance. <br> A travers mon cursus d'ingénieur et mes compétences en developpement web,
@@ -113,7 +113,7 @@
                 <p>On commence par un entretien rapide pour faire connaissance et définir vos besoins. A partir de la je prend 
                 le temps de transformer vos besoin en spec (fonctionnalités techniques) et ainsi vous obtenir un devis détaillé que l'on revoit ensemble.</p>
               </div>
-              <div class="profil">
+              <div class="profil smaller">
                 <img src="media/images/Logo_GND.png" />
               </div>
           </div>
@@ -130,12 +130,12 @@
           <h1>PORTFOLIO</h1>
           <div class="card-project">
             <div class="title-project">
-              <div class="">
+              <div class="title-project-content">
                 <h2>Du menu a l'assiette</h2>
-                <h3>Façonne ton menu, obtiens ta liste de course</h3>
-                <h3>Projet perso | Ruby On Rails</h3>
+                <h4 class = "date">Juillet 2021</h4>
               </div>
-              <h4 class = "date">Juillet 2021</h4>
+              <h3 class="description">Façonne ton menu, obtiens ta liste de course</h3>
+              <h3 class="techno">Projet perso | Ruby On Rails</h3>
             </div>
             <p>"Du Menu à l'Assiette" est ma première application Post formation LeWagon. L'objectif principal étant de continuer à 
             apprendre en développant mes idées. <br>
@@ -154,12 +154,12 @@
           </div>
           <div class="card-project">
             <div class="title-project">
-              <div class="">
+              <div class="title-project-content">
                 <h2>Sailsessions</h2>
-                <h3>Partagez plus que votre passion pour les sports nautiques</h3>
-                <h3>Ruby On rails | Projet Le Wagon - Lead Dev</h3>
+                <h4 class = "date">Juin 2021</h4>
               </div>
-              <h4 class = "date">Juin 2021</h4>
+              <h3 class="description">Partagez plus que votre passion pour les sports nautiques</h3>
+              <h3 class="techno">Ruby On rails | Projet Le Wagon - Lead Dev</h3>
             </div>
             <p>Le wagon c'est aussi l'opportunité de présenter un projet qui nous tient à cœur et de le voir naître doucement. <br>
             Je vous présente donc SailSessions : un prototype d'application web (orienté mobile) ayant pour but de 

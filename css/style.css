@@ -36,16 +36,16 @@ body {
 }
 
 /* Smallest device */
-@media (min-width: 100px) and (max-width: 320px) {
+@media (min-width: 100px) and (max-width: 355px) {
   .content {
     width: 300px;
   }
 }
 
 /* Smallest device - Bigger Phone */
-@media (min-width: 325px) and (max-width: 575px) {
+@media (min-width: 360px) and (max-width: 575px) {
   .content {
-    width: 350px;
+    width: 340px;
   }
 }
 
