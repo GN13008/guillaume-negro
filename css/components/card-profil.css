@@ -41,7 +41,11 @@
   }
 
   .profil img {
-    width: 250px;
-    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  .smaller img {
+    width: 200px;
   }
 }

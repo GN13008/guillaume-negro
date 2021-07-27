@@ -7,9 +7,16 @@
   margin: 0;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
-.card-project h3 {
+
+.description {
+  font-size: 18px;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.techno {
   font-size: 24px;
-  opacity: 0.7;
+  opacity: 0.85;
   margin-bottom: 8px;
 }
 
@@ -23,10 +30,14 @@
   width: 100%;
 }
 
-.title-project {
+.title-project-content {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.title-project {
+  margin-bottom: 32px;
 }
 
 .project-link {
@@ -52,6 +63,7 @@ hr {
 .date {
   color: #01172F;
   font-weight: bold;
+  text-align: right;
 }
 
 
