@@ -34,3 +34,17 @@
 .footer-links i:hover {
   opacity: 1;
 }
+
+/* // Smallest device */
+@media (max-width: 376px) {
+  .footer-content{
+    height:200px;
+  }
+  .footer-links {
+    flex-direction: column;
+    margin-right: 24px;
+  }
+  .footer-links i {
+    padding: 10px 10px;
+  }
+}

@@ -26,7 +26,22 @@
 
 /* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) {
-  .flex-content {
+  .up {
+    flex-direction: column-reverse;
+  }
+  .down {
     flex-direction: column;
+  }
+  .margin-left {
+    margin-left: 0;
+  }
+  
+  .margin-right {
+    margin-right: 0;
+  }
+
+  .profil img {
+    width: 250px;
+    margin-bottom: 24px;
   }
 }
