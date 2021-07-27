@@ -4,7 +4,7 @@
 }
 
 /* // Smallest device */
-@media (max-width: 376px) {
+@media (max-width: 768px) {
   .contact-link {
     flex-direction: column;
   }
