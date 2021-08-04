@@ -38,9 +38,11 @@
 
 .navlinks .dropdown {
   display: none;
+  visibility:hidden;
 }
 .navlinks .inline-navlinks {
   display: block;
+  visibility:visible;
 }
 
 /* // Smallest device */
@@ -57,8 +59,10 @@
 
   .navlinks .dropdown {
     display: block;
+    visibility:visible;
   }
   .navlinks .inline-navlinks {
     display: none;
+    visibility:hidden;
   }
 }
