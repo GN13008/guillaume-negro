@@ -22,3 +22,14 @@
   background: #01172F;
   color: white;
 }
+
+.btn-blue {
+  color: white;
+  background: #01172F;
+  opacity: 0.9;
+}
+
+.btn-blue:hover {
+  background: white;
+  color: #01172F;
+}
