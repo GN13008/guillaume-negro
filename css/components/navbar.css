@@ -36,6 +36,13 @@
   opacity: 1;
 }
 
+.navlinks .dropdown {
+  display: none;
+}
+.navlinks .inline-navlinks {
+  display: block;
+}
+
 /* // Smallest device */
 @media (max-width: 768px) {
   .navlinks {
@@ -46,5 +53,12 @@
   }
   .navbar-brand img {
     width: 60px;
+  }
+
+  .navlinks .dropdown {
+    display: block;
+  }
+  .navlinks .inline-navlinks {
+    display: none;
   }
 }
