@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-/* // Smallest device */
+/* Smallest device */
 @media (max-width: 768px) {
   .contact-link {
     flex-direction: column;
