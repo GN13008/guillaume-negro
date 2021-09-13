@@ -1,3 +1,59 @@
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+/* test */
+
+.project-card {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 100%;
+  border-radius: 4px;
+}
+
+.project-card > img {
+  height: 250px;
+  width: 100%;
+  /* object-fit:scale-down; */
+  object-fit: cover;
+}
+
+.project-card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  /* color: $dark-blue; */
+}
+
+.project-card p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+  /* color: $dark-blue; */
+}
+
+.project-card .project-card-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+.project-card .project-card-infos p {
+  padding-top: 16px;
+}
+
+.project-card-infos .project-card-user {
+  position: absolute;
+  right: 16px;
+  top: 0px;
+  width: 40px;
+}
+
+
+/* test */
 .card-project {
   margin-bottom: 32px;
 }
@@ -67,8 +123,11 @@ hr {
 }
 
 
-/* // Smallest device */
+/* Iphone and Small devices */
 @media (max-width: 768px) {
+  .project-cards {
+    grid-template-columns: 1fr;
+  }
   .project-link {
     flex-direction: column;
     margin-bottom: 32px;
@@ -82,59 +141,20 @@ hr {
   }
 }
 
-/* copy from sportgear */
 
-/* .cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
-}
-a:hover{
-  text-decoration: none;
-}
-.card-gear {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  height: 100%;
-}
-
-.card-gear > img {
-  height: 250px;
-  width: 100%;
-  object-fit:scale-down;
-}
-
-.card-gear h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-  color: $dark-blue;
-}
-
-.card-gear p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
-  color: $dark-blue;
-}
-
-.card-gear .card-gear-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-  p {
-    padding-top: 16px;
+/* Smallest device - Bigger Phone */
+@media (min-width: 769px) and (max-width: 1599px) {
+  .project-cards {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-.card-gear-infos .card-gear-user {
-  position: absolute;
-  right: 16px;
-  top: 0px;
-  width: 40px;
+
+/* copy from sportgear */
+
+/*
+a:hover{
+  text-decoration: none;
 }
 
 
