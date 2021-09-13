@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
 }
-/* test */
 
 .project-card {
   overflow: hidden;
@@ -11,6 +10,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   height: 100%;
   border-radius: 4px;
+  position:relative;
 }
 
 .project-card > img {
@@ -20,17 +20,27 @@
   object-fit: cover;
 }
 
-.project-card h2 {
-  font-size: 16px;
+.project-card .project-card-infos h2 {
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
+  margin-top: 24px;
+  /* color: $dark-blue; */
+}
+
+.project-card .project-card-infos h3 {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 16px;
   /* color: $dark-blue; */
 }
 
 .project-card p {
-  font-size: 12px;
+  font-size: 16px;
+  text-align: justify;
   opacity: .7;
   margin: 0;
+  padding: 0;
   /* color: $dark-blue; */
 }
 
@@ -41,19 +51,41 @@
   align-items: flex-end;
   position: relative;
 }
-.project-card .project-card-infos p {
-  padding-top: 16px;
-}
 
-.project-card-infos .project-card-user {
+.project-card-infos .technos {
   position: absolute;
   right: 16px;
-  top: 0px;
-  width: 40px;
+  top: -8px;
+  display: flex;
+  justify-content: space-between;
+}
+.project-card-infos .technos .techno {
+  border-radius: 8px;
+  margin: 0 8px;
+}
+.project-card-infos .technos .techno p {
+  color:white;
+  font-size: 16px;
+  margin: 0;
+  padding: 4px 8px;
 }
 
+.project-card-date {
+  position: absolute;
+  color: white;
+  text-align: right;
+  background-color: wheat;
+  padding: 8px;
+  right: 0px;
+  top: 0px;
+  border-radius: 0 0 0 4px;
+}
 
-/* test */
+.project-card-date h2 {
+  margin:0;
+}
+
+/* fin test */
 .card-project {
   margin-bottom: 32px;
 }
@@ -70,16 +102,9 @@
   margin-bottom: 8px;
 }
 
-.techno {
-  font-size: 24px;
-  opacity: 0.85;
-  margin-bottom: 8px;
-}
-
 .card-project p {
   opacity: 1;
   text-align: justify;
-  margin-top: 8px;
 }
 
 .project-cover {
@@ -101,7 +126,7 @@
   align-items: center;
 }
 
-hr {
+.content > hr {
   margin-top: 24px;
 }
 
