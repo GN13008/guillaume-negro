@@ -43,11 +43,15 @@ body {
 }
 
 .bck-grey {
-  background-color: grey;
+  background-color: #9FB7B9;
+}
+
+.bck-dark-grey {
+  background-color: #485665;
 }
 
 .bck-blue {
-  background-color: grey;
+  background-color: #476fb1;
 }
 
 /* Smallest device */
