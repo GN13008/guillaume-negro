@@ -16,6 +16,7 @@
 @import url(components/navbar.css);
 @import url(components/section.css);
 
+/* Font & Size */
 p, a, i{
   font-family: "Montserrat", "Work Sans", "Helvetica", "sans-serif";
   font-size: 18px;
@@ -33,6 +34,24 @@ h1, h2, h3, h4 {
 body {
   padding:0;
   margin:0;
+}
+
+/* background Color */
+
+.bck-red {
+  background-color: #DF2935;
+}
+
+.bck-grey {
+  background-color: #9FB7B9;
+}
+
+.bck-dark-grey {
+  background-color: #485665;
+}
+
+.bck-blue {
+  background-color: #476fb1;
 }
 
 /* Smallest device */
