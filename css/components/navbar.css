@@ -1,10 +1,18 @@
 /* nav */
 .navbar {
-  background: white;
   position: fixed !important;
   top: 0px;
   width: 100%;
   z-index: 10000;
+  transition: all .5s;
+}
+
+.transparentnav {
+  background: transparent;
+}
+
+.whitenav {
+  background: white;
 }
 
 .navbar-content {

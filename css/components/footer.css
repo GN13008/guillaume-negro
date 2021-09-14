@@ -47,4 +47,7 @@
   .footer-links i {
     padding: 10px 10px;
   }
+  .footer-copyright p {
+    margin-bottom: 4px;
+  }
 }
