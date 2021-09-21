@@ -2,6 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.profil-content h2 {
+  margin-bottom: 16px;
 }
 
 .profil img {
@@ -47,5 +52,9 @@
 
   .smaller img {
     width: 200px;
+  }
+
+  .flex-content {
+    margin-bottom: 0;
   }
 }
