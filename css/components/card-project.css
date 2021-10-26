@@ -65,17 +65,17 @@
  text-align: left;
 }
 
-.project-card-infos .technos {
+.project-card-infos .technos-home {
   /* right: 16px;
   top: -8px; */
   display: flex;
   justify-content: flex-start;
 }
-.project-card-infos .technos .techno {
+.project-card-infos .technos-home .techno {
   border-radius: 8px;
   margin: 0 8px;
 }
-.project-card-infos .technos .techno p {
+.project-card-infos .technos-home .techno p {
   color:white;
   font-size: 16px;
   margin: 0;
@@ -178,7 +178,7 @@
   .demo-app-grid {
     grid-template-columns: 1fr;
   }
-  .project-card-infos .technos .techno p {
+  .project-card-infos .technos-home .techno p {
     font-size: 12px;
     /* margin: 0;
     padding: 4px 8px; */
