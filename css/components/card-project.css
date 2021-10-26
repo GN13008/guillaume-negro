@@ -4,6 +4,11 @@
   grid-gap: 16px;
 }
 
+/* TODO design the hover of a card project */
+.project-card:hover {
+  border: solid 4px #476fb1;
+}
+
 .project-card {
   overflow: hidden;
   background: white;
@@ -11,6 +16,7 @@
   height: 100%;
   border-radius: 4px;
   position:relative;
+  transition: all ease 0.1s;
 }
 
 .project-card > img {
@@ -41,7 +47,6 @@
 
 .project-card p {
   font-size: 16px;
-  text-align: justify;
   opacity: .7;
   margin: 0;
   padding: 0;
@@ -56,18 +61,21 @@
   position: relative;
 }
 
-.project-card-infos .technos {
-  position: absolute;
-  right: 16px;
-  top: -8px;
-  display: flex;
-  justify-content: space-between;
+.project-card-infos ul li p {
+ text-align: left;
 }
-.project-card-infos .technos .techno {
+
+.project-card-infos .technos-home {
+  /* right: 16px;
+  top: -8px; */
+  display: flex;
+  justify-content: flex-start;
+}
+.project-card-infos .technos-home .techno {
   border-radius: 8px;
   margin: 0 8px;
 }
-.project-card-infos .technos .techno p {
+.project-card-infos .technos-home .techno p {
   color:white;
   font-size: 16px;
   margin: 0;
@@ -110,7 +118,6 @@
 
 .card-project p {
   opacity: 1;
-  text-align: justify;
 }
 
 .project-cover {
@@ -130,6 +137,7 @@
 .project-link {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .content > hr {
@@ -170,7 +178,7 @@
   .demo-app-grid {
     grid-template-columns: 1fr;
   }
-  .project-card-infos .technos .techno p {
+  .project-card-infos .technos-home .techno p {
     font-size: 12px;
     /* margin: 0;
     padding: 4px 8px; */

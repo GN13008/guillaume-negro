@@ -1,0 +1,130 @@
+/* project show */
+
+.project{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.project > img{
+  border-radius: 16px;
+  width: 100%;
+  margin: 8px auto;
+}
+.techno-container{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%
+}
+.techno-container h3{
+  margin-bottom: 0;
+}
+
+.technos {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.techno {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  margin: 0 16px;
+  opacity: 0.9;
+}
+
+.techno > p {
+  margin: 0;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+}
+
+.title > h1 {
+  margin-right: 16px;
+}
+
+.title > .date {
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.detail {
+  opacity: 0.8;
+  font-size: 24px;
+}
+
+
+/* .banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner .content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.banner-content {
+  justify-content: center;
+}
+
+
+.banner-content h1 {
+  margin: 0;
+  color: white;
+  font-family: "Montserrat", "Work Sans", "Helvetica", "sans-serif";
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 100px;
+  opacity: 0.9;
+  /* font-weight: bold; */
+/* }
+
+.banner-content p {
+  color: white;
+  opacity: .9;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  margin: 0;
+  font-size: 24px;
+} */
+
+/* Iphone and Small devices */
+@media (max-width: 768px) {
+  .techno-container{
+    flex-direction: column;
+    /* display: flex;
+    justify-content: flex-start;
+    width: 100% */
+  }
+  
+  .technos {
+    flex-direction: column;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-grow: 1; */
+  }
+  .techno {
+    margin: 8px 0;
+
+    /* display: flex;
+    justify-content: flex-start;
+    flex-grow: 1; */
+  }
+  .title{
+    flex-direction: column;
+    margin-bottom: 16px;
+    /* display: flex;
+    align-items: center; */
+  }
+}
