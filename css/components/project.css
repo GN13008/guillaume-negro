@@ -18,13 +18,13 @@
 }
 .techno-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%
 }
 
 .technos {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-grow: 1;
 }
 
@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   padding: 4px 8px;
-  margin: 0;
+  margin: 0 16px;
   opacity: 0.9;
 }
 
