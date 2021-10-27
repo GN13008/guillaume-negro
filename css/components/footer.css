@@ -49,5 +49,6 @@
   }
   .footer-copyright p {
     margin-bottom: 4px;
+    text-align: left;
   }
 }

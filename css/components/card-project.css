@@ -169,7 +169,6 @@
   }
   .project-link {
     flex-direction: column;
-    margin-bottom: 32px;
   }
   .project-link a {
     margin: 0;
@@ -182,6 +181,9 @@
     font-size: 12px;
     /* margin: 0;
     padding: 4px 8px; */
+  }
+  .project-card .project-card-infos h3 {
+    text-align: left;
   }
 }
 
