@@ -14,16 +14,28 @@
 @import url(components/card-project.css);
 @import url(components/footer.css);
 @import url(components/navbar.css);
+@import url(components/project.css);
 @import url(components/section.css);
 
 /* Font & Size */
 p, a, i{
   font-family: "Montserrat", "Work Sans", "Helvetica", "sans-serif";
-  font-size: 18px;
+  font-size: 16px;
+  text-align: justify;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Poppins", "Helvetica", "sans-serif";
+  font-family: "Montserrat","Poppins", "Helvetica", "sans-serif";
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 28px;
+}
+h3, h4 {
+  font-size: 20px;
 }
 
 .content {
