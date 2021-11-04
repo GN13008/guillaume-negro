@@ -65,29 +65,18 @@
 @media (max-width: 768px) {
   .techno-container{
     flex-direction: column;
-    /* display: flex;
-    justify-content: flex-start;
-    width: 100% */
   }
   
   .technos {
     flex-direction: column;
-    /* display: flex;
-    justify-content: flex-start;
-    flex-grow: 1; */
   }
   .techno {
     margin: 8px 0;
-
-    /* display: flex;
-    justify-content: flex-start;
-    flex-grow: 1; */
   }
+
   .title{
     flex-direction: column;
     margin-bottom: 16px;
-    /* display: flex;
-    align-items: center; */
   }
   .title > h1 {
     margin-right: 0;
