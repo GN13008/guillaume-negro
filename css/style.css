@@ -50,11 +50,11 @@ body {
 /* background Color */
 
 .bck-red {
-  background-color: #DF2935;
+  background-color: #E65C4F;
 }
 
-.bck-grey {
-  background-color: #9FB7B9;
+.bck-white {
+  background-color: #E9EEF2;
 }
 
 .bck-dark-grey {
@@ -62,7 +62,11 @@ body {
 }
 
 .bck-blue {
-  background-color: #476fb1;
+  background-color: #76A5C9;
+}
+
+.bck-deep-blue {
+  background-color: #326789;
 }
 
 /* Smallest device */
