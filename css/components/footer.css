@@ -38,17 +38,16 @@
 /* // Smallest device */
 @media (max-width: 768px) {
   .footer-content{
-    height:200px;
-  }
-  .footer-links {
+    height:auto;
     flex-direction: column;
-    margin-right: 24px;
+    padding: 8px 0;
   }
   .footer-links i {
     padding: 10px 10px;
   }
   .footer-copyright p {
     margin-bottom: 4px;
-    text-align: left;
+    text-align: center;
+    font-size: 12px;
   }
 }
