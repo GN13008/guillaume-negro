@@ -13,6 +13,7 @@
 
 .whitenav {
   background: white;
+  border-bottom: 1px solid #eee;
 }
 
 .navbar-content {
