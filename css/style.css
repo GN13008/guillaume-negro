@@ -79,21 +79,27 @@ body {
 /* Smallest device - Bigger Phone */
 @media (min-width: 360px) and (max-width: 575px) {
   .content {
-    width: 340px;
+    width: 350px;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .content {
-    width: 500px;
+    width: 550px;
+  }
+}
+
+@media (min-width: 675px) {
+  .content {
+    width: 650px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .content {
-    width: 700px;
+    width: 750px;
   }
 }
 
@@ -107,9 +113,17 @@ body {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .content {
-    width: 1000px;
+    width: 1100px;
   }
 }
+
+
+@media (min-width: 1400px) {
+  .content {
+    width: 1200px;
+  }
+}
+
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1600px) {

@@ -6,7 +6,7 @@
 
 /* TODO design the hover of a card project */
 .project-card:hover {
-  border: solid 4px #476fb1;
+  border: solid 4px #326789;
 }
 
 .project-card {
@@ -22,12 +22,11 @@
 .project-card > img {
   height: 250px;
   width: 100%;
-  /* object-fit:scale-down; */
   object-fit: cover;
 }
 
 .project-card > img.left {
-  object-position: left;
+  object-position: left top;
 }
 
 .project-card .project-card-infos h2 {
