@@ -19,6 +19,7 @@
 .footer-copyright p {
   margin:0;
   padding: 0;
+  font-size: 13px;
 }
 
 .footer-links {
@@ -30,7 +31,7 @@
   color: black;
   opacity: 0.15;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 28px;
   padding: 0px 10px;
 }
 .footer-links i:hover {

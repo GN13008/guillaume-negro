@@ -6,7 +6,7 @@
 
 /* TODO design the hover of a card project */
 .project-card:hover {
-  border: solid 4px #326789;
+  border: solid 4px #01172F;
 }
 
 .project-card {
@@ -158,8 +158,8 @@
 }
 
 .date {
-  color: #01172F;
-  font-weight: bold;
+  color: white;
+  font-weight: 500;
   text-align: right;
 }
 

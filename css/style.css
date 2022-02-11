@@ -13,6 +13,7 @@
 @import url(components/contact.css);
 @import url(components/footer.css);
 @import url(components/navbar.css);
+@import url(components/pills.css);
 @import url(components/project.css);
 @import url(components/section.css);
 
@@ -62,11 +63,11 @@ body {
 }
 
 .bck-blue {
-  background-color: #76A5C9;
+  background-color: #01172F;
 }
 
 .bck-deep-blue {
-  background-color: #326789;
+  background-color: #01172F;
 }
 
 /* Smallest device */
