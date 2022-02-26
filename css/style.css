@@ -13,11 +13,15 @@
 @import url(components/contact.css);
 @import url(components/footer.css);
 @import url(components/navbar.css);
+@import url(components/pills.css);
 @import url(components/project.css);
 @import url(components/section.css);
 
 /* Font & Size */
 p, a, i{
+  /* font à tester */
+  /* font-family: "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
   font-family: "Montserrat", "Work Sans", "Helvetica", "sans-serif";
   font-size: 16px;
   text-align: justify;
@@ -62,11 +66,11 @@ body {
 }
 
 .bck-blue {
-  background-color: #76A5C9;
+  background-color: #01172F;
 }
 
 .bck-deep-blue {
-  background-color: #326789;
+  background-color: #01172F;
 }
 
 /* Smallest device */
