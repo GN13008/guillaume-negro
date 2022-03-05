@@ -6,7 +6,7 @@
 
 /* TODO design the hover of a card project */
 .project-card:hover {
-  border: solid 2px rgba(1, 23, 47, 0.8);
+  border: solid 2px rgba(24, 24, 24, 1);
 }
 
 .project-card {

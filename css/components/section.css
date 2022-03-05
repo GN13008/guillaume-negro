@@ -17,11 +17,11 @@
 }
 
 .section-content p, i, a {
-  color: black;
+  color: rgba(24, 24, 24, 1);
   opacity: .9;
   text-decoration: none;
 }
 .section-content i, a:hover {
-  color: black;
+  color: rgba(24, 24, 24, 1);
   opacity: 0,4;
 }

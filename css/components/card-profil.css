@@ -9,8 +9,20 @@
   margin-bottom: 16px;
 }
 
-.profil img {
+
+.kite img {
   width: 300px;
+  border-radius: 4px;
+}
+
+.profilIMG img {
+  width: 200px;
+  border-radius: 4px;
+}
+
+.smaller img {
+  width: 200px;
+  opacity: 0.95;
   border-radius: 4px;
 }
 
@@ -51,9 +63,13 @@
   }
 
   .smaller img {
-    width: 200px;
+    width: 150px;
   }
 
+  .kite img {
+    width: 100%;
+    border-radius: 4px;
+  }
   .flex-content {
     margin-bottom: 0;
   }
