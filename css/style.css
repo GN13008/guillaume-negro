@@ -66,11 +66,11 @@ body {
 }
 
 .bck-blue {
-  background-color: #01172F;
+  background-color: rgba(1, 23, 47, 0.8);
 }
 
 .bck-deep-blue {
-  background-color: #01172F;
+  background-color: rgba(1, 23, 47, 0.8);
 }
 
 /* Smallest device */
