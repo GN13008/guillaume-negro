@@ -13,23 +13,34 @@
 }
 
 .btn-white {
-  color: #01172F;
+  color: rgba(51, 73, 94, 1);
   background: white;
   opacity: 0.9;
 }
 
 .btn-white:hover {
-  background: #01172F;
+  background: rgba(51, 73, 94, 1);
+  color: white;
+}
+
+.btn-white-dark {
+  color: rgba(24, 24, 24, 1);
+  background: white;
+  opacity: 0.9;
+}
+
+.btn-white-dark:hover {
+  background: rgba(24, 24, 24, 1);
   color: white;
 }
 
 .btn-blue {
   color: white;
-  background: #01172F;
+  background: rgba(51, 73, 94, 1);
   opacity: 0.9;
 }
 
 .btn-blue:hover {
   background: white;
-  color: #01172F;
+  color: rgba(51, 73, 94, 1);
 }
